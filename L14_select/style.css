@@ -1,0 +1,48 @@
+#mydiv{
+    color: aquamarine;
+}
+.div1{
+    color: blue;
+}
+[title]{
+    color: red;
+}
+[title="ti"]{
+    font-size: 50px;
+}
+[title~="title"]{
+    background-color: bisque;
+}
+[href]{
+    font-size: 30px;
+}
+[href="http://www.jikexueyuan.com"]{
+    background-color: aquamarine;
+}
+p strong{
+    font-size: 30px;
+    color: red;
+}
+p strong i{
+    background-color: aqua;
+}
+p i{
+    background-color: aqua;
+    font-size: 40px;
+}
+
+div>p{
+    font-size: 30px;
+    color: red;
+}
+div>p>a{
+    background-color: black;
+}
+
+ul+ol{
+    background-color: crimson;
+}
+li+li{
+    font-size: 40px;
+    color: blue;
+}
